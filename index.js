@@ -104,8 +104,10 @@ console.log("TASK 7: Display a Welcome Message");
 // • Define a function named `welcomeMessage`.
 // • Inside, log a message like "🎬 Welcome to the Movie Picker!".
 // • Call the function (no inputs) and check the console output.
-
-
+function welcomeMessage() {
+    console.log(`🎬 Welcome to the Movie Picker!`)
+}
+welcomeMessage()
 // ============================================================
 // TASK 8: Add Three Numbers
 // ============================================================
@@ -115,7 +117,10 @@ console.log("TASK 8: Add Three Numbers");
 // • Define a function named `addThree` that takes three inputs: a, b, c.
 // • Inside, return the sum of the three numbers.
 // • Call the function with 5, 10, and 15, and log the result (expect 30).
-
+function addThree(a,b,c){
+    console.log(a+b+c)
+}
+addThree(5,10,15)
 
 // ============================================================
 // TASK 9: Display Today’s Message
@@ -128,8 +133,11 @@ console.log("TASK 9: Display Today’s Message");
 //    "Good morning, SE11!"
 //    "Let's write some clean JavaScript today!"
 // • Call the function once to test it.
-
-
+function todaysMessage(){
+    console.log(`Good morning, SE11!`)
+    console.log(`Let's write some clean JavaScript today!`)
+}
+todaysMessage()
 // ============================================================
 // TASK 10: Multiply Two Numbers
 // ============================================================
@@ -139,9 +147,10 @@ console.log("TASK 10: Multiply Two Numbers");
 // • Define a function named `multiply` that takes two inputs: num1 and num2.
 // • Inside, return the result of multiplying num1 and num2.
 // • Call the function with 7 and 9, and log the result.
-
-
-
+function multiply(num1,num2){
+    console.log(num1*num2)
+}
+multiply(7,9)
 // ============================================================
 // ==== Final Commit Instructions ====
 // At this point, commit your work with an appropriate commit message.
